@@ -3,6 +3,8 @@
 #include <sys/stat.h>
 #include <CL/cl.h>
 
+// gcc -g  -o opencl opencl-test.c -lOpenCL &&  ./opencl
+
 #define BUFFERSIZE		1024
 #define MAX_PLATFORMS	8	
 #define MAX_DEVICES		8
